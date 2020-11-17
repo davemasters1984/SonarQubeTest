@@ -19,6 +19,11 @@ namespace SonarQubeTest
             _three = three;
             _four = four;
             _five = five;
+
+            if (five == null)
+            {
+                five.ToString();
+            }
         }
     }
 }
