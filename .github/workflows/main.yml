@@ -41,5 +41,5 @@ jobs:
         shell: powershell
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"davemasters1984_SonarQubeTest" /o:"davidmasters" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io" /d:sonar.scanner.force-deprecated-java-version=true /d:sonar.language=cs /d:sonar.sources=/src /d:sonar.tests=/tests
-          dotnet build --configuration Release --no-restore
+          dotnet build --configuration Debug --no-restore
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
