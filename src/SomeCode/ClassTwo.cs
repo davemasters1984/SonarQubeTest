@@ -15,6 +15,9 @@
             Three = three;
             Four = four;
             Five = five;
+
+            if (Five == null)
+                Five.ToString();
         }
     }
 }
