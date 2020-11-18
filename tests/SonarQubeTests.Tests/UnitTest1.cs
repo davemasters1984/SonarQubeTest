@@ -1,6 +1,6 @@
+using SomeCode;
 using System;
 using Xunit;
-using SonarQubeTest;
 
 namespace SonarQubeTests.Tests
 {
@@ -9,7 +9,7 @@ namespace SonarQubeTests.Tests
         [Fact]
         public void Test1()
         {
-            var x = new SonarQubeTest.Test.TestClass(string.Empty, string.Empty, string.Empty, string.Empty, string.Empty);
+            var x = new ClassTwo(string.Empty, string.Empty, string.Empty, string.Empty, string.Empty);
 
             Assert.NotNull(x);
         }
