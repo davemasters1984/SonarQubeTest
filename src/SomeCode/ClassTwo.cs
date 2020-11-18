@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SomeCode
+﻿namespace SomeCode
 {
     public class ClassTwo
     {
@@ -17,15 +15,6 @@ namespace SomeCode
             Three = three;
             Four = four;
             Five = five;
-
-            //Test
-
-            if (five == null)
-            {
-                five.ToString();
-            }
         }
-
-
     }
 }
