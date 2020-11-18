@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SonarQubeTest.Test
 {
-    class TestClass
+    public class TestClass
     {
         public string One { get; set; }
         public string Two { get; set; }
